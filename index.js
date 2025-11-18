@@ -3,3 +3,9 @@ function taxable(state, taxExempt) {
         return "is taxable";
     }
 }
+
+function isVehicle(hasWheels, canFly, canSwim) {
+    if (hasWheels === true || canFly === true || canSwim === true) {
+        return "is vehicle";
+    }
+}
